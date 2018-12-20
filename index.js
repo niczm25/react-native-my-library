@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeMyLibrary } = NativeModules;
+const { RNMyLibrary } = NativeModules;
 
-export default RNReactNativeMyLibrary;
+export default RNMyLibrary;
