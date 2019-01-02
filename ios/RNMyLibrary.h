@@ -12,6 +12,8 @@
 #endif
 
 #import <LenddoEFLSdk/LEAuthorizeEventDelegate.h>
+#import <LenddoEFLSdk/LEController.h>
+#import <LenddoEFLSdk/LEOnboardingData.h>
 
 @interface RNMyLibrary : NSObject <RCTBridgeModule, LEAuthorizeEventDelegate>
 

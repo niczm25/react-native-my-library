@@ -1,7 +1,5 @@
 
 #import "RNMyLibrary.h"
-#import <LenddoEFLSdk/LEController.h>
-#import <LenddoEFLSdk/LEOnboardingData.h>
 
 @implementation RNMyLibrary
 
