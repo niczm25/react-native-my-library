@@ -11,7 +11,9 @@
 #import <React/RCTLog.h>
 #endif
 
-@interface RNMyLibrary : NSObject <RCTBridgeModule>
+#import <LenddoEFLSdk/LEAuthorizeEventDelegate.h>
+
+@interface RNMyLibrary : NSObject <RCTBridgeModule, LEAuthorizeEventDelegate>
 
 @end
   
