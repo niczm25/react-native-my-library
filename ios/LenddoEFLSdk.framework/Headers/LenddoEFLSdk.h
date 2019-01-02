@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char LenddoEFLSdkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LenddoEFLSdk/PublicHeader.h>
 
+#import <LenddoEFLSdk/LEAuthorizeEventDelegate.h>
+#import <LenddoEFLSdk/LEController.h>
+#import <LenddoEFLSdk/LEOnboardingData.h>
 
