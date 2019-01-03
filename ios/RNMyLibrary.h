@@ -14,8 +14,11 @@
 #import <LenddoEFLSdk/LEAuthorizeEventDelegate.h>
 #import <LenddoEFLSdk/LEController.h>
 #import <LenddoEFLSdk/LEOnboardingData.h>
+#import <LenddoEFLSdk/LEProvider.h>
 
 @interface RNMyLibrary : NSObject <RCTBridgeModule, LEAuthorizeEventDelegate>
+
++(void) setProviders:(NSArray *) providers;
 
 @end
   

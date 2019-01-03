@@ -3,6 +3,8 @@
 
 @implementation RNMyLibrary
 
+static NSArray *providers;
+
 - (dispatch_queue_t)methodQueue
 {
     return dispatch_get_main_queue();
@@ -22,10 +24,13 @@ RCT_EXPORT_METHOD(showAuthorize:(NSString *)partnerScriptId applicationId:(NSStr
     formData.lastName = @"Mosca";
     formData.firstName = @"Neil";
     formData.email = @"neil.mosca@lenddo.com";
+    formData.partnerScriptId = partnerScriptId;
+    formData.clientId = applicationId;
     
     UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
+    // [LEController openAuthorize:rootViewController withData:formData withDelegate:self];
     
-    [LEController openAuthorize:rootViewController withData:formData withDelegate:self];
+    [LEController openAuthorize:rootViewController withProviders: providers withData:formData withDelegate:self];
 }
 - (void)onAuthorizeCancelled {
     RCTLogInfo(@"onAuthorizeCancelled");
@@ -45,6 +50,10 @@ RCT_EXPORT_METHOD(showAuthorize:(NSString *)partnerScriptId applicationId:(NSStr
 - (void)onAuthorizeStarted {
     RCTLogInfo(@"onAuthorizeStarted");
     NSLog(@"onAuthorizeStarted");
+}
+
++ (void) setProviders:(NSArray *) aProviders {
+    providers = aProviders;
 }
 
 @end
