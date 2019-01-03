@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6041477D21DE4EFC0020E1F4 /* LenddoEFLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6041477C21DE4EFC0020E1F4 /* LenddoEFLSdk.framework */; };
+		60C1D2E321DE6628005C9458 /* LenddoEFLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C1D2E221DE6628005C9458 /* LenddoEFLSdk.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMyLibrary.m */; };
 /* End PBXBuildFile section */
 
@@ -147,8 +147,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6041477C21DE4EFC0020E1F4 /* LenddoEFLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LenddoEFLSdk.framework; sourceTree = "<group>"; };
 		604147C621DE63670020E1F4 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		60C1D2E221DE6628005C9458 /* LenddoEFLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LenddoEFLSdk.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNMyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMyLibrary.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMyLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6041477D21DE4EFC0020E1F4 /* LenddoEFLSdk.framework in Frameworks */,
+				60C1D2E321DE6628005C9458 /* LenddoEFLSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 		604147FB21DE644B0020E1F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6041477C21DE4EFC0020E1F4 /* LenddoEFLSdk.framework */,
+				60C1D2E221DE6628005C9458 /* LenddoEFLSdk.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -503,6 +503,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +524,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
