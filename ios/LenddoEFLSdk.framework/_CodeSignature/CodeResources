@@ -96,17 +96,9 @@
 		<data>
 		Bbxzg/AvBFYs5Ocyxdc6hjhREts=
 		</data>
-		<key>Headers/LEBinApiClient.h</key>
+		<key>Headers/LEContactManager.h</key>
 		<data>
-		bVATyuVva0v2/68GuJP0Gou1YhQ=
-		</data>
-		<key>Headers/LECollectionEventDelegate.h</key>
-		<data>
-		XBUAW1h/0eWI9ry7lXD2G9/kq1Y=
-		</data>
-		<key>Headers/LECollectionSetup.h</key>
-		<data>
-		cZHDHZX+bJPAvp/dpS3TM0GySS8=
+		u/tdvF4U9DIETjXrYrgl4bum1N8=
 		</data>
 		<key>Headers/LEController.h</key>
 		<data>
@@ -124,10 +116,6 @@
 		<data>
 		JCCX91pzCvpsdFW/e2oRbWZuOBM=
 		</data>
-		<key>Headers/LEFilesData.h</key>
-		<data>
-		2dwAAlAIUC1MMLF9nOMX86JEFAA=
-		</data>
 		<key>Headers/LEGatewayStatus.h</key>
 		<data>
 		CBlERJ60DBhRhVo2e+Ve6iqobG4=
@@ -135,10 +123,6 @@
 		<key>Headers/LEIdentityToken.h</key>
 		<data>
 		PCPRMOjQwj/5N7p1WDRNuMrbPkg=
-		</data>
-		<key>Headers/LELivenessInstruction.h</key>
-		<data>
-		CByFe0+yYRft3/cCHOz8W1HbbqU=
 		</data>
 		<key>Headers/LELocationManager.h</key>
 		<data>
@@ -172,14 +156,6 @@
 		<data>
 		i2XluD+fdl0FKm2SezPbItGFRVY=
 		</data>
-		<key>Headers/LEPsychometricDelegate.h</key>
-		<data>
-		gi3HlguU3YP9KL4ES37YoonqYDU=
-		</data>
-		<key>Headers/LEServiceToken.h</key>
-		<data>
-		11ZXApyWpSCorh4wz8UL6goN8Zk=
-		</data>
 		<key>Headers/LESingleUseToken.h</key>
 		<data>
 		+h+j3XlS9d6TU/IskV7Zg/eoYss=
@@ -188,21 +164,13 @@
 		<data>
 		hIQL6Oi455kOrfbMTg6x+WilnKY=
 		</data>
-		<key>Headers/LEUploadToken.h</key>
-		<data>
-		mFxB0jyFyXG4EnCRgfiEBw8fW34=
-		</data>
-		<key>Headers/LEUploadTokenData.h</key>
-		<data>
-		OLSp3WIigkheHDWcVtQnFerAIi4=
-		</data>
 		<key>Headers/LEWebViewController.h</key>
 		<data>
 		Ol3z2FpJYZapWsaXpAYta8rya3M=
 		</data>
 		<key>Headers/LenddoEFLSdk-Swift.h</key>
 		<data>
-		YtVCzRHApsfxBKxp0eB+0C3LMsA=
+		f8xAt3UbuZ8R8v9UxN04vVDmIdU=
 		</data>
 		<key>Headers/LenddoEFLSdk.h</key>
 		<data>
@@ -214,15 +182,15 @@
 		</data>
 		<key>LivenessPreviewView.nib/objects-11.0+.nib</key>
 		<data>
-		pzyCv/s5XM9GnG9i393D/9BLq6s=
+		CvDCR0q/LOkp0ccwDBcQhe++SAM=
 		</data>
 		<key>LivenessPreviewView.nib/runtime.nib</key>
 		<data>
-		hlB0hIvbUnH+jt75t+LSjbSFVe8=
+		8+67ADwrRE3YwFsvSgyoJ5Rzlh8=
 		</data>
 		<key>LivenessRecordingCompleteDialogView.nib</key>
 		<data>
-		uHHiddFScGmMKlKo+PuCLQqQC3o=
+		b4jrai4yiM92KaSzs87ClvWV6XM=
 		</data>
 		<key>Modules/LenddoEFLSdk.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -230,7 +198,7 @@
 		</data>
 		<key>Modules/LenddoEFLSdk.swiftmodule/i386.swiftmodule</key>
 		<data>
-		9D+yl2s5JSRQSNambVpt7hZoXfQ=
+		Khd9bkYpqrC6WR+h8M3LMTVHjhQ=
 		</data>
 		<key>Modules/LenddoEFLSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -238,7 +206,7 @@
 		</data>
 		<key>Modules/LenddoEFLSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		7jrxD2ZQbBslle7Tbb7lMVToxZk=
+		997qRFEAvwA+obbzZjhtEzZQO1Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -504,37 +472,15 @@
 			NZshDQkvMlbAkqlJwX06hcgQc3Hyj95mQ47hV6DxsNQ=
 			</data>
 		</dict>
-		<key>Headers/LEBinApiClient.h</key>
+		<key>Headers/LEContactManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bVATyuVva0v2/68GuJP0Gou1YhQ=
+			u/tdvF4U9DIETjXrYrgl4bum1N8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nabOF5Dd357zFdwgc2dSlkqOvC+gY+zqazTChou965M=
-			</data>
-		</dict>
-		<key>Headers/LECollectionEventDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XBUAW1h/0eWI9ry7lXD2G9/kq1Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			3zsVS0fOx1gnkxmOvVdwzOVxZzbZ3xUyoQuWDpChdIc=
-			</data>
-		</dict>
-		<key>Headers/LECollectionSetup.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cZHDHZX+bJPAvp/dpS3TM0GySS8=
-			</data>
-			<key>hash2</key>
-			<data>
-			cPXolYbkU+qakwc1vMygywn+8hU0zb6IeIpZ7m/0MhA=
+			aD1sVBKTg4vVyYC8f6Vn1NOgZ3wEeIp2sFPAHYWRh6w=
 			</data>
 		</dict>
 		<key>Headers/LEController.h</key>
@@ -581,17 +527,6 @@
 			B6OjekWO+X5gIZEU+wDxoQLZ0vUqgL8umvwhCDEJClM=
 			</data>
 		</dict>
-		<key>Headers/LEFilesData.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2dwAAlAIUC1MMLF9nOMX86JEFAA=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ohmv2PvNUIGKNJ1d5fxNzpp3iU3b20Dm1nHg7MwL0ZM=
-			</data>
-		</dict>
 		<key>Headers/LEGatewayStatus.h</key>
 		<dict>
 			<key>hash</key>
@@ -612,17 +547,6 @@
 			<key>hash2</key>
 			<data>
 			wHMycLyqpMv1XG4CPLktvMJh2kI2aJ9ZXfxj9oerSOA=
-			</data>
-		</dict>
-		<key>Headers/LELivenessInstruction.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CByFe0+yYRft3/cCHOz8W1HbbqU=
-			</data>
-			<key>hash2</key>
-			<data>
-			y5h3ASsVFn9J3pRUvSZxpvR4SWs3lVuVQlLpPh3cN0Y=
 			</data>
 		</dict>
 		<key>Headers/LELocationManager.h</key>
@@ -713,28 +637,6 @@
 			9FARsHkIHxdvVBKM2rB+BosN2cdwgEt9LKJ8huXXD48=
 			</data>
 		</dict>
-		<key>Headers/LEPsychometricDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gi3HlguU3YP9KL4ES37YoonqYDU=
-			</data>
-			<key>hash2</key>
-			<data>
-			uBS0vR9fG+eoRHmmz3T0ExyjBwvwsFpeHqp88veFnOE=
-			</data>
-		</dict>
-		<key>Headers/LEServiceToken.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			11ZXApyWpSCorh4wz8UL6goN8Zk=
-			</data>
-			<key>hash2</key>
-			<data>
-			iyyEivTpem32ddjsJuAB20tYadG5Dwc83ewNZVSIQQU=
-			</data>
-		</dict>
 		<key>Headers/LESingleUseToken.h</key>
 		<dict>
 			<key>hash</key>
@@ -757,28 +659,6 @@
 			9ERT4vWaEr547yNzr5cYncztHOV1KbJ1SeOeiuQsjzA=
 			</data>
 		</dict>
-		<key>Headers/LEUploadToken.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mFxB0jyFyXG4EnCRgfiEBw8fW34=
-			</data>
-			<key>hash2</key>
-			<data>
-			SWP2IvrwmAEqXo5si1Ey6nxydhCZWMkPgM9EjTKcr4Q=
-			</data>
-		</dict>
-		<key>Headers/LEUploadTokenData.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OLSp3WIigkheHDWcVtQnFerAIi4=
-			</data>
-			<key>hash2</key>
-			<data>
-			BR0CgDvebCV7duwDdH8EKnDR+nvvC4U/2MfQGwqZoJw=
-			</data>
-		</dict>
 		<key>Headers/LEWebViewController.h</key>
 		<dict>
 			<key>hash</key>
@@ -794,11 +674,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YtVCzRHApsfxBKxp0eB+0C3LMsA=
+			f8xAt3UbuZ8R8v9UxN04vVDmIdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			CyzwFUl3vXuwRMzl/yY8HFbFtyGESWdsdYCIzz1oyB0=
+			SU8xn0IACoAa8MSUpC1qsL/beg+USCvOqZLeUMNlZTA=
 			</data>
 		</dict>
 		<key>Headers/LenddoEFLSdk.h</key>
@@ -816,33 +696,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pzyCv/s5XM9GnG9i393D/9BLq6s=
+			CvDCR0q/LOkp0ccwDBcQhe++SAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Im6rn7UCRLUU/Jvyh1b4t7Uk2BSgly0kECXCXsNlZHQ=
+			FeRCXROMBwRRvXL+EGAoSMAxJtyGSFABOj1falj6AKA=
 			</data>
 		</dict>
 		<key>LivenessPreviewView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hlB0hIvbUnH+jt75t+LSjbSFVe8=
+			8+67ADwrRE3YwFsvSgyoJ5Rzlh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			txDikHSpBHAKyR7HN7aUo9gcg56nY7I7Jyf9dN7Te50=
+			18re0NIREBLtLOdwcC1veIkiRObCaSITYzegK2JFJBQ=
 			</data>
 		</dict>
 		<key>LivenessRecordingCompleteDialogView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uHHiddFScGmMKlKo+PuCLQqQC3o=
+			b4jrai4yiM92KaSzs87ClvWV6XM=
 			</data>
 			<key>hash2</key>
 			<data>
-			klsDzmNjToqw+e6Zb9Sz+hcem7HjVBAmURH2jbp2XD8=
+			njL+BWD3CxLhultuNMWamGeumFtK1XCcYS/l9WhO9l4=
 			</data>
 		</dict>
 		<key>Modules/LenddoEFLSdk.swiftmodule/i386.swiftdoc</key>
@@ -860,11 +740,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9D+yl2s5JSRQSNambVpt7hZoXfQ=
+			Khd9bkYpqrC6WR+h8M3LMTVHjhQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZgPTgHuzy2iDs6O3GltB9PxdybQuIfyW8hCMa6DhdQ=
+			tCKKFle3bL5KtlVl8MDtwe1IR4yzgRvV32QN11C9CQU=
 			</data>
 		</dict>
 		<key>Modules/LenddoEFLSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -882,11 +762,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7jrxD2ZQbBslle7Tbb7lMVToxZk=
+			997qRFEAvwA+obbzZjhtEzZQO1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			ETo4OqQBjPgnmnRRJcJ2sfEAsiElvzEDDTtMGr5QARQ=
+			dRKaW9VBZEsLYZB4FYBcz47u6MTSc4Cey7jN6COmFEE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

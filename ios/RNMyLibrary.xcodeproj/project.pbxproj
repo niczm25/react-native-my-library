@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		604146E121DD06190020E1F4 /* LenddoEFLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604146E021DD06190020E1F4 /* LenddoEFLSdk.framework */; };
+		6041476A21DE4BCA0020E1F4 /* LenddoEFLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6041476921DE4BCA0020E1F4 /* LenddoEFLSdk.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMyLibrary.m */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		604146E021DD06190020E1F4 /* LenddoEFLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LenddoEFLSdk.framework; sourceTree = "<group>"; };
+		6041476921DE4BCA0020E1F4 /* LenddoEFLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LenddoEFLSdk.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNMyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMyLibrary.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMyLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				604146E121DD06190020E1F4 /* LenddoEFLSdk.framework in Frameworks */,
+				6041476A21DE4BCA0020E1F4 /* LenddoEFLSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				604146E021DD06190020E1F4 /* LenddoEFLSdk.framework */,
+				6041476921DE4BCA0020E1F4 /* LenddoEFLSdk.framework */,
 				B3E7B5881CC2AC0600A0062D /* RNMyLibrary.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMyLibrary.m */,
 				134814211AA4EA7D00B7C361 /* Products */,

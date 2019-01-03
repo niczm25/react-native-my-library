@@ -201,7 +201,7 @@ SWIFT_CLASS("_TtC12LenddoEFLSdk25DocumentCaptureController")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 - (nullable instancetype)initWithPresenter:(UIViewController * _Nonnull)presenter error:(NSError * _Nullable * _Nullable)error;
-- (BOOL)showTakeDocumentScreen SWIFT_WARN_UNUSED_RESULT;
+- (void)showTakeDocumentScreen;
 - (void)setDocumentTypeId:(NSString * _Nonnull)typeId;
 - (NSString * _Nonnull)getDocumentTypeId SWIFT_WARN_UNUSED_RESULT;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
