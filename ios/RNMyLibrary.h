@@ -11,12 +11,18 @@
 #import <React/RCTLog.h>
 #endif
 
+#if __has_include("RCTEventEmitter.h")
+#import "RCTEventEmitter.h"
+#else
+#import <React/RCTEventEmitter.h>
+#endif
+
 #import <LenddoEFLSdk/LEAuthorizeEventDelegate.h>
 #import <LenddoEFLSdk/LEController.h>
 #import <LenddoEFLSdk/LEOnboardingData.h>
 #import <LenddoEFLSdk/LEProvider.h>
 
-@interface RNMyLibrary : NSObject <RCTBridgeModule, LEAuthorizeEventDelegate>
+@interface RNMyLibrary : RCTEventEmitter <RCTBridgeModule, LEAuthorizeEventDelegate>
 
 +(void) setProviders:(NSArray *) providers;
 
