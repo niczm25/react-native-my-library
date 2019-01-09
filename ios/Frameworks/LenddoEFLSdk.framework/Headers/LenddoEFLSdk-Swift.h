@@ -216,7 +216,6 @@ SWIFT_PROTOCOL("_TtP12LenddoEFLSdk33DocumentCaptureControllerDelegate_")
 @protocol DocumentCaptureControllerDelegate
 - (void)onDocumentCancel;
 - (void)onDocumentSaveSuccess;
-- (void)onDocumentSubmitSuccess;
 - (void)onDocumentStepComplete;
 @end
 
